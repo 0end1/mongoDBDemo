@@ -5,7 +5,7 @@
   "description": " create a mongoDB with express4.x demo ",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "node ./bunlid/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,8 @@
     "bootscript",
     "node",
     "express",
-    "mongoDB"
+    "mongoDB",
+    "jquery"
   ],
   "author": "seven",
   "license": "MIT",
@@ -32,8 +33,12 @@
     "debug": "~2.1.1",
     "express": "~4.11.1",
     "jade": "~1.9.1",
-    "mongoose": "^4.2",
+    "mongoose": "^4.10.8",
     "morgan": "~1.5.1",
     "serve-favicon": "~2.2.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1"
   }
 }
